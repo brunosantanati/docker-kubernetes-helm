@@ -13,9 +13,9 @@
 <code>docker build -t springio/gs-spring-boot-docker .</code>  
 <code>docker run -p 8080:8080 springio/gs-spring-boot-docker</code>  
 <code>docker ps --all</code>  
-<code>docker rm <container-name></code>  
+<code>docker rm \<container-name\></code>  
 <code>docker image ls --all</code>  
-<code>docker rmi <image-id></code>  
+<code>docker rmi \<image-id\></code>  
 
 ## Minikube commands  
 
