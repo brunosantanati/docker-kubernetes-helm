@@ -10,6 +10,9 @@
 ## Docker commands  
 
 <code>sudo snap install docker</code>  
+<code>sudo groupadd docker</code>  
+<code>sudo usermod -aG docker $USER</code>  
+<code>newgrp docker</code>  
 <code>docker build -t springio/gs-spring-boot-docker .</code>  
 <code>docker run -p 8080:8080 springio/gs-spring-boot-docker</code>  
 <code>docker ps --all</code>  
