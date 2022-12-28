@@ -3,9 +3,9 @@
 ## Useful links  
 
 [Spring Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)  
-[Install Rancher Desktop on Linux](https://docs.rancherdesktop.io/getting-started/installation/#linux)
-[Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
-[Minikube Installation](https://minikube.sigs.k8s.io/docs/start/)
+[Install Rancher Desktop on Linux](https://docs.rancherdesktop.io/getting-started/installation/#linux)  
+[Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)  
+[Minikube Installation](https://minikube.sigs.k8s.io/docs/start/)  
 
 ## Docker commands  
 
