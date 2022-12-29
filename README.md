@@ -29,3 +29,17 @@
 <code>minikube start --driver docker</code>  
 <code>minikube status</code>  
 <code>kubectl get node</code>  
+<code>kubectl get node -o wide</code>  
+<code>kubectl get all</code>  
+<code>kubectl get pod</code>  
+<code>kubectl get pod -o wide</code>  
+<code>kubectl logs \<pod-name\></code>  
+<code>kubectl logs \<pod-name\> -f</code>  
+<code>kubectl get svc</code>  
+<code>kubectl get svc -o wide</code>  
+<code>minikube ip</code>  
+<code>kubectl apply -f webapp.yaml</code>  
+<code>kubectl delete pod \<pod-name\></code>  
+
+Access the application deployed in the Kubernetes cluster:  
+http://\<minikube-ip\>:\<node-port\>/  
