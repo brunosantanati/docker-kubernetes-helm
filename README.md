@@ -6,7 +6,7 @@
 [Install Rancher Desktop on Linux](https://docs.rancherdesktop.io/getting-started/installation/#linux)  
 [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)  
 [Minikube Installation](https://minikube.sigs.k8s.io/docs/start/)  
-[Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4&t=2450s)  
+[Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4&t=2450s) [(Git Repo)](https://gitlab.com/nanuchi/k8s-in-1-hour)  
 
 ## Docker commands  
 
