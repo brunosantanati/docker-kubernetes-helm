@@ -21,6 +21,11 @@
 <code>docker image ls --all</code>  
 <code>docker rmi \<image-id\></code>  
 
+<code>docker build -t brunosantanati/gs-spring-boot-docker .</code>  
+<code>docker run -p 8080:8080 brunosantanati/gs-spring-boot-docker</code>  
+<code>docker login</code>  
+<code>docker push brunosantanati/gs-spring-boot-docker</code>  
+
 ## Minikube commands  
 
 <code>curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64</code>  

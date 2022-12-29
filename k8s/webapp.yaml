@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: springio/gs-spring-boot-docker:latest
+        image: brunosantanati/gs-spring-boot-docker:latest
         ports:
         - containerPort: 8080
 ---
