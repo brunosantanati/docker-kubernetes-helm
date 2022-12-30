@@ -7,6 +7,7 @@
 [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)  
 [Minikube Installation](https://minikube.sigs.k8s.io/docs/start/)  
 [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4&t=2450s) [(Git Repo)](https://gitlab.com/nanuchi/k8s-in-1-hour)  
+[Introduction to Helm | Kubernetes Tutorial | Beginners Guide](https://www.youtube.com/watch?v=5_J7RWLLVeQ&list=PLGemgmMsjljTRDg6KH4MPjw0hHY9MofPo&index=87) [(Git Repo)](https://github.com/marcel-dempers/docker-development-youtube-series/tree/master/kubernetes/helm)  
 
 ## Docker commands  
 
