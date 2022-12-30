@@ -36,16 +36,38 @@
 <code>minikube status</code>  
 <code>kubectl get node</code>  
 <code>kubectl get node -o wide</code>  
-<code>kubectl get all</code>  
+<code>kubectl get service -o wide</code>  
+<code>kubectl get deploy -o wide</code>  
 <code>kubectl get pod</code>  
 <code>kubectl get pod -o wide</code>  
 <code>kubectl logs \<pod-name\></code>  
 <code>kubectl logs \<pod-name\> -f</code>  
 <code>kubectl get svc</code>  
 <code>kubectl get svc -o wide</code>  
+<code>kubectl get cm</code>  
+<code>kubectl get secret</code>  
+<code>kubectl get all</code>  
 <code>minikube ip</code>  
 <code>kubectl apply -f webapp.yaml</code>  
 <code>kubectl delete pod \<pod-name\></code>  
+<code>kubectl delete svc \<service-name\></code>  
+<code>kubectl delete deploy \<deployment-name\></code>  
 
 Access the application deployed in the Kubernetes cluster:  
 http://\<minikube-ip\>:\<node-port\>/  
+
+## Helm commands  
+
+Install Helm CLI  
+```
+curl -LO https://get.helm.sh/helm-v3.4.0-linux-amd64.tar.gz
+tar -C /tmp/ -zxvf helm-v3.4.0-linux-amd64.tar.gz
+rm helm-v3.4.0-linux-amd64.tar.gz
+mv /tmp/linux-amd64/helm /usr/local/bin/helm
+chmod +x /usr/local/bin/helm
+```  
+
+<code>helm create example-app</code>  
+<code>helm template example-app example-app</code>  
+<code>helm install example-app example-app</code>  
+<code>helm list</code>  
