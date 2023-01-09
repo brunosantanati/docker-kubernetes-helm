@@ -1,0 +1,9 @@
+deployment:
+  name: "webapp-deployment"
+  image: "brunosantanati/gs-spring-boot-docker"
+  tag: "latest"
+
+service:
+  name: "webapp-service"
+
+name: "webapp"

@@ -34,6 +34,7 @@
 <code>sudo snap install kubectl --classic</code>  
 <code>minikube start --driver docker</code>  
 <code>minikube status</code>  
+<code>minikube stop --all</code>  
 <code>kubectl get node</code>  
 <code>kubectl get node -o wide</code>  
 <code>kubectl get service -o wide</code>  
@@ -71,3 +72,4 @@ chmod +x /usr/local/bin/helm
 <code>helm template example-app example-app</code>  
 <code>helm install example-app example-app</code>  
 <code>helm list</code>  
+<code>helm upgrade example-app example-app --values ./example-app/values.yaml</code>  
