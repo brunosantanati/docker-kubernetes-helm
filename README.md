@@ -35,6 +35,7 @@
 <code>minikube start --driver docker</code>  
 <code>minikube status</code>  
 <code>minikube stop --all</code>  
+<code>minikube logs --file=logs.txt</code>  
 <code>kubectl get node</code>  
 <code>kubectl get node -o wide</code>  
 <code>kubectl get service -o wide</code>  
@@ -43,6 +44,7 @@
 <code>kubectl get pod -o wide</code>  
 <code>kubectl logs \<pod-name\></code>  
 <code>kubectl logs \<pod-name\> -f</code>  
+<code>kubectl exec \<pod-name\> -- printenv</code>  
 <code>kubectl get svc</code>  
 <code>kubectl get svc -o wide</code>  
 <code>kubectl get cm</code>  
