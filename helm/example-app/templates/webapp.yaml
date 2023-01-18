@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: {{ .Values.name }}
+        date: "{{ now | unixEpoch }}"
     spec:
       containers:
       - name: {{ .Values.name }}
