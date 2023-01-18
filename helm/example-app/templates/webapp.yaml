@@ -19,6 +19,9 @@ spec:
         image: {{ .Values.deployment.image }}:{{ .Values.deployment.tag }}
         ports:
         - containerPort: 8080
+        env:
+        - name: "APP_NAME"
+          value: {{ .Values.env.APP_NAME }}
 ---
 apiVersion: v1
 kind: Service

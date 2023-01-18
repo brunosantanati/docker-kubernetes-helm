@@ -7,3 +7,6 @@ service:
   name: "webapp-service"
 
 name: "webapp"
+
+env:
+  APP_NAME: "my-web-app"
