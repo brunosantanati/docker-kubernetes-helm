@@ -9,6 +9,7 @@
 [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4&t=2450s) [(Git Repo)](https://gitlab.com/nanuchi/k8s-in-1-hour)  
 [Introduction to Helm | Kubernetes Tutorial | Beginners Guide](https://www.youtube.com/watch?v=5_J7RWLLVeQ&list=PLGemgmMsjljTRDg6KH4MPjw0hHY9MofPo&index=87) [(Git Repo)](https://github.com/marcel-dempers/docker-development-youtube-series/tree/master/kubernetes/helm)  
 [How to Use Environment Variables with Helm Charts](https://phoenixnap.com/kb/helm-environment-variables)  
+[Tag an Docker image](https://docs.docker.com/engine/reference/commandline/build/#-tag-an-image--t---tag)
 
 ## Docker commands  
 
@@ -25,10 +26,12 @@
 
 <code>docker build -t brunosantanati/gs-spring-boot-docker .</code>  
 <code>docker build -t brunosantanati/gs-spring-boot-docker:1.0 .</code>  
+<code>docker build -t brunosantanati/gs-spring-boot-docker:latest -t brunosantanati/gs-spring-boot-docker:1.0 .</code>  
 <code>docker run -p 8080:8080 brunosantanati/gs-spring-boot-docker</code>  
 <code>docker login</code>  
 <code>docker push brunosantanati/gs-spring-boot-docker</code>  
 <code>docker push brunosantanati/gs-spring-boot-docker:1.0</code>  
+<code>docker push brunosantanati/gs-spring-boot-docker:latest</code>  
 
 ## Minikube commands  
 
