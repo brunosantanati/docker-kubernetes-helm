@@ -24,6 +24,7 @@
 <code>docker image ls --all</code>  
 <code>docker rmi \<image-id\></code>  
 
+Generate the target folder again (when using Maven) before build the image again (using the IDE features or mvn clean install)  
 <code>docker build -t brunosantanati/gs-spring-boot-docker .</code>  
 <code>docker build -t brunosantanati/gs-spring-boot-docker:1.0 .</code>  
 <code>docker build -t brunosantanati/gs-spring-boot-docker:latest -t brunosantanati/gs-spring-boot-docker:1.0 .</code>  
