@@ -83,5 +83,7 @@ chmod +x /usr/local/bin/helm
 <code>helm install example-app example-app --values ./example-app/values.yaml</code>  
 <code>helm list</code>  
 <code>helm upgrade example-app example-app --values ./example-app/values.yaml</code>  
+<code>helm upgrade --install example-app example-app --values ./example-app/values.yaml</code>  
 <code>helm upgrade example-app example-app --recreate-pods --values ./example-app/values.yaml</code>  
+<code>helm uninstall example-app</code>  
 <code>helm delete example-app</code>  
