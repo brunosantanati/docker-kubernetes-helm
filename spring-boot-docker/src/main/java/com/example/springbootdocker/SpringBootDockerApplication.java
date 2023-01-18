@@ -11,7 +11,8 @@ public class SpringBootDockerApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello Docker World!";
+		var envVar = System.getenv("APP_NAME");
+		return "Hello Docker World! APP_NAME: " + envVar;
 	}
 
 
