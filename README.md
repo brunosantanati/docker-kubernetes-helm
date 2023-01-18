@@ -72,6 +72,7 @@ chmod +x /usr/local/bin/helm
 
 <code>helm create example-app</code>  
 <code>helm template example-app example-app</code>  
+<code>helm template example-app example-app --values ./example-app/values.yaml</code>  
 <code>helm install example-app example-app</code>  
 <code>helm install example-app example-app --values ./example-app/values.yaml</code>  
 <code>helm list</code>  
